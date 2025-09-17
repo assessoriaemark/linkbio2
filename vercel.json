@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/biolinks", "destination": "/" },
+    { "source": "/biolinks/:path*", "destination": "/:path*" }
+  ]
+}
